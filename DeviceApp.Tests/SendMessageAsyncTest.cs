@@ -22,9 +22,9 @@ namespace DeviceApp.Tests
 
             string expected = "{\"Temperature\":10,\"Humidity\":20}";
             string actual = JsonConvert.SerializeObject(json);
+
+
             Assert.Equal(expected, actual);
-
-
         }
 
     public class TemperatureModel

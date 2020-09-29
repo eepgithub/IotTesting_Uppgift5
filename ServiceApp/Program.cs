@@ -13,7 +13,7 @@ namespace ServiceApp
             Task.Delay(5000).Wait();
 
 
-            InvokeMethod("DeviceApp", "SetTelemetryInterval", "10").GetAwaiter();
+            InvokeMethod("DeviceApp", "SetTelemetryInterval", "5").GetAwaiter();
             Console.ReadKey();
         }
 
